@@ -17,7 +17,7 @@ export default function Navbar({ children }) {
     return (
 
         <>
-            <nav className="flex fixed z-[60] h-[9vh] w-[100%] bg-white  lg:py-[14px] py-[14px]  lg:px-[75px] px-[10px] items-center lg:justify-between justify-around transition duration-300">
+            <nav className="flex fixed z-[60] h-[9vh] md:h-[10vh] w-[100%] bg-white  lg:py-[14px] py-[14px]  lg:px-[75px] px-[10px] items-center lg:justify-between justify-around transition duration-300">
                 <Link href="/" className="lg:text-[30px] text-[12px] ">ECOM</Link>
                 <div className="lg:w-[40%] w-[65%]  relative">
                     {inputValue == "" ? <IoIosSearch className="absolute left-[2%] text-[#4B5563] font-bold text-[20px] top-[50%] translate-y-[-50%] " /> : <></>}
@@ -61,10 +61,7 @@ export default function Navbar({ children }) {
                 <button className="p-[8px] w-[60%] rounded-[10px] bg-white border-[1.35px] border-black ">Login</button>
             </div>
             </nav>
-            <div className="h-[9vh]"></div>
-
-
-
+            <div className="h-[10vh]"></div>
 
             <main>
                 {children}
