@@ -17,7 +17,7 @@ export default function Navbar({ children }) {
     return (
 
         <>
-            <nav className="flex fixed z-[60] h-[9vh] md:h-[10vh] w-[100%] bg-white  lg:py-[14px] py-[14px]  lg:px-[75px] px-[10px] items-center lg:justify-between justify-around transition duration-300">
+            <nav className="flex fixed z-[60] h-[9vh] md:h-[10vh] w-[100vw] bg-white  lg:py-[14px] py-[14px]  lg:px-[75px] px-[10px] items-center lg:justify-between justify-around transition duration-300">
                 <Link href="/" className="lg:text-[30px] text-[12px] ">
                     <svg className="lg:hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_278_2172)">
@@ -78,15 +78,13 @@ export default function Navbar({ children }) {
                 </label>
 
                 {/* responsive nav */}
-                {/* <div className="bg-red-500"> */}
-                <div className={`absolute bg-white h-[91vh] w-full inset-0 flex flex-col items-center justify-center gap-[10px] top-[9vh] transition-all duration-500 z-[60] lg:hidden ${!respNav ? "-left-[100vw]" : "left-0"} `}>
+                <div className={`absolute bg-white h-[91vh] w-[100vw] inset-0 flex flex-col items-center justify-center gap-[10px] top-[9vh] transition-all duration-500 z-[60] lg:hidden ${!respNav ? "-left-[100vw]" : "left-0"} `}>
                     <div className="w-[60%] relative">
                         <button className="p-[8px] w-[100%] rounded-[10px] bg-black border-[1.35px] border-white text-white">Cart</button>
                         <div className="bg-[#0EA5E9] h-[15px] w-[15px] rounded-full absolute -top-[3px] -right-0.5 text-[10px] flex items-center justify-center font-semibold ">0</div>
                     </div>
                     <button className="p-[8px] w-[60%] rounded-[10px] bg-black border-[1.35px] border-white text-white">Login</button>
                 </div>
-                {/* </div> */}
             </nav>
 
             <div className="h-[10vh]"></div>
