@@ -8,7 +8,7 @@ export default function Section2() {
 
         <>
             <section className="Section2">
-                <div className="w-[100%] py-[6rem] px-[20px] md:px-[25px] lg:px-[100px] flex flex-col md:justify-start justify-center gap-7">
+                <div className="w-[100%] py-[4.5rem] px-[20px] md:px-[25px] lg:px-[100px] flex flex-col md:justify-start justify-center gap-7">
                     <p className="text-[33px] flex font-extrabold">Recommendations. <span className="text-[#4B5563] md:block hidden">Best matching products for you</span></p>
 
                     <div className="flex md:flex-row flex-col w-[100%] justify-between  bg-white flex-wrap   ">

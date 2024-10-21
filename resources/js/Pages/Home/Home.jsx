@@ -1,9 +1,11 @@
 import Navbar from '@/Layouts/Navbar';
 import React from 'react';
-import Section1 from './Components/Section1';
 import { Head } from '@inertiajs/react';
+import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';
 import Section3 from './Components/Section3';
+import Section4 from './Components/Section4';
+import Footer from '@/Layouts/Footer';
 
 export default function Home() {
 
@@ -12,14 +14,14 @@ export default function Home() {
     return (
         <>
             <Head title='Home' />
+            <Navbar />
             <Section1 />
             <Section2 />
             <Section3 />
-            <div className="h-[120vh] "></div>
+            <Section4 />
+            <Footer />
 
         </>
     )
 
 }
-
-Home.layout = page => <Navbar children={page} />

@@ -86,7 +86,7 @@ export default function Section1() {
                         <div className="md:w-[24.9%] w-[80%] md:py-[18px] py-[10px] flex md:flex-row flex-col  items-center justify-center gap-3 text-white   ">
                             <TbExchange className="text-[25px] text-[#111827] " />
                             <div className="flex flex-col md:text-start text-center ">
-                                <p className="font-black 2xl:text-[20px] lg:text-[16.5px] text-[14.5px] text-[#111827] ">Ver easy to return</p>
+                                <p className="font-black 2xl:text-[20px] lg:text-[16.5px] text-[14.5px] text-[#111827] ">Very easy to return</p>
                                 <p className="2xl:text-[18px] lg:text-[14px] text-[12px] text-[#4B5563] ">Just phone number</p>
                             </div>
                         </div>
